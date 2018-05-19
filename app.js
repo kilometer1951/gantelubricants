@@ -9,7 +9,7 @@ app.use(express.static(__dirname + "/public"));
 
 
 app.get("/", function(req, res) {
-    res.send("test Site under contruction");
+    res.render("index");
 });
 
 
