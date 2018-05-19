@@ -12,6 +12,11 @@ app.get("/", function(req, res) {
     res.render("index");
 });
 
+app.get("/mobile", function(req, res) {
+    res.render("mobile");
+});
+
+
 
 
 
